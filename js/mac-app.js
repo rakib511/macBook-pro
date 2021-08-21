@@ -63,7 +63,6 @@ document.getElementById('promo-btn').addEventListener('click',function(){
         promoField.value = '';
     }
     
-        promoField.value = '';
 })
 
 
