@@ -60,10 +60,10 @@ document.getElementById('promo-btn').addEventListener('click',function(){
 
         const newpromoTotal = promoTotal - (promoTotal / 20);
         promoTotalField.innerText = newpromoTotal;
-    }
-    else{
         promoField.value = '';
     }
+    
+        promoField.value = '';
 })
 
 
